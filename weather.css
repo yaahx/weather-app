@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #1E2025;
+    font-family: Poppins;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 500px;
+    margin: 0px auto;
+    margin-top: 10px;
+    border-radius: 2px;
+    padding: 20px;
+    background:linear-gradient(135deg,rgb(87, 209, 218),rgb(231, 91, 201));
+}
+
+.search{
+    display: flex;
+}
+ .search input{
+    flex: 1 0 0;
+    border-radius: 2px;
+    padding: 20px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+ }
+
+ .search-icon{
+    margin-left: 20px;
+    border-radius: 70%;
+    padding: 20px;
+    background-color:white;
+    border: none;
+    outline: none;
+ }
+
+ .search-icon:hover{
+    cursor: pointer;
+ }
+
+ .search-icon img{
+    width: 16px;
+ }
+
+ .weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+ }
+
+ .weather .city-name{
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+ }
+
+.weather .temp{
+    color: white;
+    font-size:50px ;
+}
+
+.weather-info{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-info .humidity{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rebeccapurple;
+    margin-right:150px ;
+    padding: 10px 40px;
+    border-radius:5px ;
+
+}
+
+.humidity img{
+    margin-bottom: 25px;
+}
+
+.humidity .humidity-amnt{
+    color: white;
+    font-size: 25px;
+ }
+
+.humidity .humidity-text{
+    color: white;
+    justify-self: center;
+}
+
+
+.weather-info .wind{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rebeccapurple;
+    padding: 10px 40px;
+    border-radius: 5px;
+
+}
+
+.wind img{
+    margin-bottom: 20px;
+}
+
+.wind .wind-speed{
+  color: white;
+  font-size: 25px;
+}
+
+.wind .wind-text{
+    color: white;
+}
+
+.error{
+  text-align: center;
+  justify-self: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: none;
+}
+
+.error h3{
+    color: red;
+    opacity: 0.9;
+}
+
+.weather{
+    display: none;
+}
+
+.loading img{
+    width: 50px;
+    margin-top: 50px;
+    border-radius: 50%;
+    background:transparent;
+    opacity: 1;
+}
+
+.loading{
+   text-align: center;
+   border-radius: 2px;
+   display: none;
+}
