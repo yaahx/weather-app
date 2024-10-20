@@ -6,7 +6,7 @@ const loading = document.querySelector('.loading')
 const getWeather = async (cityName) => {
     loading.style.display = 'block'
     const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?&units=metric';
-    const apiKey = '&appid=7b92b3cc49f25408c90703c7ab521186';
+    const apiKey ='apikey';
     const response = await fetch(apiUrl + apiKey + `&q=${cityName}`);
     const error = document.querySelector('.error')
     if (response.status === 404){
