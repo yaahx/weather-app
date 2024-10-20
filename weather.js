@@ -75,36 +75,3 @@ searchIcon.addEventListener('click', () => {
 
 
 
-
-
-
-/*&appid={APIkey}*/
-/*q={cityname}*/
-// 7b92b3cc49f25408c90703c7ab521186
-
-// wrapper.innerHTML = `
-    
-// <div class="weather">
-//    <div class="weather-header">
-//         <h1 class="city-name">New York</h1>
-//         <div class="weather-icon">
-//             <img src="images/clear.png" alt="" class="image">
-//         </div>
-//         <h1 class="temp">22°C</h1>
-//    </div>
-
-//     <div class="weather-info">
-//         <div class="humidity">
-//             <img src="images/humidity.png" alt="humidity">
-//             <span class="humidity-amnt">50%</span>
-//             <span class="humidity-text" >Humidity</span>
-//         </div>
-//         <div class="wind">
-//             <img src="images/wind.png" alt="wind">
-//             <span class="wind-speed">15 <span style="font-size: 20px;">Km/h</span></span>
-//             <span class="wind-text">Wind Speed</span>
-//         </div>
-//     </div>
-// </div>
-
-// `
